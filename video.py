@@ -20,4 +20,4 @@ async def on_message(message):
 	   msg = 'We are working on me you will be able to use me soon!'.format(message)
 	   await client.send_message(message.channel, msg)
 	   
-client.run(os.getenv'TOKEN')
+client.run(os.getenv'TOKEN'))
